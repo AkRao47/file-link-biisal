@@ -215,10 +215,8 @@ async def cb_handler(client, query):
             [InlineKeyboardButton("ᴏᴜʀ ɢʀᴏᴜᴘ 🚩", url=bisal_grp)],
 
             [
-                 InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://telegra.ph/Disclaimer-11-07-37"),
-                 InlineKeyboardButton("ᴅᴇᴠ 😊", callback_data="aboutDev")
+                 InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://telegra.ph/Disclaimer-11-07-37")],
             ]
-        ]
             )
         )
 
@@ -238,16 +236,6 @@ async def cb_handler(client, query):
         caption=f"<b>ᴡᴇ ᴅᴏɴᴛ ɴᴇᴇᴅ ᴍᴀɴʏ <a href='https://t.me/iMediaUniverse'>ᴄᴏᴍᴍᴀɴᴅs</a> ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ 🤩.\n\nᴊᴜsᴛ sᴇɴᴅ ᴍᴇ <a href='https://t.me/iMediaUniverse'>ᴠɪᴅᴇᴏ ғɪʟᴇs</a> ᴀɴᴅ ɪ ᴡɪʟʟ ɢɪᴠᴇ ʏᴏᴜ <a href='https://t.me/iMediaUniverse'>ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ & sᴛʀᴇᴀᴍᴀʙʟᴇ</a> ʟɪɴᴋ.\n\nᴏʀ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ <a href='https://t.me/iMediaUniverse'>ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ</a>..ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴀɴᴅ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ 😎</b>",
             reply_markup=InlineKeyboardMarkup(
 [[ 
-                     InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
-                     InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")
-                  ]]            )
-        )
-    elif data == "aboutDev":
-        # please don't steal credit
-        await query.message.edit_caption(
-            caption=f"<b>ᴊᴀɪ sʜʀᴇᴇ ᴋʀsɴᴀ ᴅᴇᴀʀ...\nɪᴍ <a href='https://t.me/biisal_bot'>Bɪɪsᴀʟ</a>\nɪ ᴀᴍ ᴛʜᴇ ᴀᴅᴍɪɴ ᴏғ ᴛʜɪs ʙᴏᴛ..ᴀɴᴅ ɪ ᴍᴀᴅᴇ ᴛʜᴇ  ʙᴏᴛ ʙʏ ʜᴇʟᴘ ᴏғ <a href='https://github.com/adarsh-goel'>ᴀᴅᴀʀsʜ</a> ʙʀᴏ..\n\nGɪᴛʜᴜʙ : <a href='https://github.com/biisal'>Bɪɪsᴀʟ's Gɪᴛʜᴜʙ</a></b>",
-            reply_markup=InlineKeyboardMarkup(
-                [[ 
                      InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
                      InlineKeyboardButton("ᴄʟᴏsᴇ ‼️", callback_data="close_data")
                   ]]            )
