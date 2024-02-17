@@ -21,7 +21,8 @@ I ᴀᴍ Fɪʟᴇ ᴛᴏ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ Bᴏᴛ ᴡɪᴛʜ Cʜ�
 
 Sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ᴀɴᴅ ɢᴇᴛ ᴀ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍᴀʙʟᴇ ʟɪɴᴋ.!
 
-❌ PORNOGRAPHY CONTENTS are strictly prohibited & get Permanent Ban.
+PORNOGRAPHY CONTENTS are strictly prohibited & get Permanent Ban.
+
 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/iMediaUniverse'>𝐢𝐌𝐞𝐝𝐢𝐚𝐔𝐧𝐢𝐯𝐞𝐫𝐬𝐞</a></b>"""
 
 @StreamBot.on_message(filters.command("start") & filters.private )
